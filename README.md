@@ -1,6 +1,6 @@
 # Partial-Scan Optimization of ITC'99 b14 (Viper Processor)
 
-ECE 553 project: insert a **partial scan chain** into the ITC'99 `b14` Viper processor so that a composite testability metric **M** is maximized. M trades off stuck-at test coverage (TC), area (A), pattern count (N), and max scan-chain length (L), with pin cost **P = 3** for a single chain.
+Insert a **partial scan chain** into the ITC'99 `b14` Viper processor so that a composite testability metric **M** is maximized. M trades off stuck-at test coverage (TC), area (A), pattern count (N), and max scan-chain length (L), with pin cost **P = 3** for a single chain.
 
 Full-scan is not the target. The goal is to leave some flip-flops out of scan, keep TC above 40%, and raise M by cutting area and especially pattern count.
 
